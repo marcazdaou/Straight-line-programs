@@ -1,0 +1,120 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<13>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<3>>>
+
+3. Did you receive help from anyone? List their names, status (classmate,
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                 ...              ...
+
+4. Provide a short description of how you approached each problem, issues you
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Day of the Week)
+      Approach: I put m , d , y as command line argument. Used the given formula from the problem.
+      Wrote dow to standard output by using the function stdio.writeln(dow).
+
+      Issues and resolution: When I first ran the program, I received a warning at the following line:
+      x0 = y0 + y0 // 4 - y0 // 100 + y0 // 400
+
+      I had no idea what was wrong with my code. It said "expected type "int" got tuple"[int]" instead".
+      I got stuck in this problem for about 1 hour.
+      I went to the class course website to look at the slides from the " basic data types"
+      but still couldn't figure out why was my code wrong.
+      After playing around with the code by deleting and adding stuff,
+      I finally figured out that there shouldn't be a comma at the end of the equations.
+      I fixed the issue and the program was able to run
+
+   Problem 2 (Mercator Projection)
+      Approach: I set latitude and longitude as command line argument.
+      Used the given formula while replacing sin with math.sin and math.log and converting to radians math.radians.
+      Was able to write the values of x and y separated by a spca using the function stdio.writeln
+
+      Issues and resolution: I had problems with converting the sin to radians.
+      when I ran the program I did not get the expected output. I looked back at the code,
+      it took me 30 min to realise that my parenthesis was wrong. When I fixed the problem my code ran perfectly.
+
+   Problem 3 (Great Circle Distance)
+      Approach: I set x1 x2 y1 y2 as command line argument.
+      Used the given formula while replacing the stuff that was said in the directions.
+      ran the code and got the expected output by using the function stdio.writeln
+
+      Issues and resolution: When I first ran my code, I got the expected result,
+       but when I wanted to check if my code meets the style requirement by using pycodestyle,
+       it said that I had 110 character which was more than the requirement which is 100 characters.
+       I tried shortening it by replacing math.radians in the formula and putting in the command line argument.
+       This helped and my code ran as expected.
+   Problem 4 (Wind Chill)
+      Approach: Set t and v as command line argument.
+       Used the formula given by replacing the stuff said in the direction.
+       Ran the code using stdio.writeln
+
+      Issues and resolution: when I ran my code I had a warning saying " statement seem to have no effect"
+      on line w = 35.74 + 0.6215 * t + (0.4275 * t - 35.75) * v ** 0.16
+      I knew that my problem was with the power of v. I went to the class slides and looked that ** means power.
+      I changed my code and it worked.
+
+   Problem 5 (Gravitational Force)
+      Approach: Set m1 m2 r as command line argument. Used the given formula.
+      the code worked perfectly while using stdio.writeln
+
+      Issues and resolution: for me this was an easy problem since I knew exactly what to do.
+      I did not face any problems with this. I was done in 10 minutes.
+
+   Problem 6 (Snell's Law)
+      Approach: set theta1 n1 n2 as command line argument. solved the formula given.
+      Ran the code which worked fine
+
+      Issues and resolution: At first I copied the formula from the problem.
+      When I ran the code I received an error on the equation
+      I had no idea what was wrong. So after reading the problem carefully again
+      I realised That I should solve the formula first then type it in pycharm. I ran the code again and it worked
+
+   Problem 7 (Gambler's Ruin)
+      Approach: Set n1 n2 p as command line argument. Wrote the formula for the problem. Ran the code. It worked
+
+      Issues and resolution: This was easy for me because it was the similar to problem 4.
+      I had no issues and my code ran perfectly. It took me 5 min to finish it.
+
+   Problem 8 (Waiting Time)
+      Approach: Set A and t as command line argument. Ran the formula for the problem and my code worked.
+
+      Issues and resolution: I also did not have any issue with this problem
+       it was simple and straight to the point. I followed the directions and got the expected output.
+
+   Problem 9 (Die Roll)
+      Approach: Set n as command line argument. applied a formula for the problem. Ran my code and it worked.
+
+      Issues and resolution: At first I was confused because there was no formula.
+      I realised that I had to come up with my own formula for this problem.
+      After reading and understanding the problem again I was able to come up with a formula
+      even though it was tricky, and it took me 15 min to solve. I ran my code and it worked.
+
+   Problem 10 (Three Sort)
+      Approach: Set x y z as command line argument
+      used function min and max given by the directions
+      created a middle value formula. Ran my code and it worked.
+
+
+      Issues and resolution: It took me a while to figure out the middle value formula.
+      I started to think what the formula could possibly be. After 15 min of thinking I was able to solve the problem.
+      I ran the code and got the suggested output.
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I enjoyed every problem in this project because I was able to learn a lot from them.
+   At first, I found the project to be difficult but after solving the exercises it became easy.
+   I love being challenged and I would make sure that I find the solutions to every upcoming problems.
+   I did the project all by myself without receiving help from anybody.
+   I simply looked at the slides the professor gave us and was able to found the answers for the problems.
